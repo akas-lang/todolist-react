@@ -1,0 +1,92 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.todo-image
+{
+  height: 30px;
+  margin-left: 100px;
+}
+.header{
+  margin-left: 600px;
+  margin-top: 50px;
+}
+.title{
+  margin-left: 60px;
+
+}
+
+.deleteitem,.updateitem{
+padding: 5px;
+position: absolute;
+right: 10px;
+}
+.edititem{
+  padding: 5px;
+  position: absolute;
+  right: 70px;
+  }
+.eachitem{
+  width: 370px;
+  margin-top: 10px; 
+  padding: 13px;
+  background-color: crimson;
+  color: white;
+  position: relative;
+
+}
+.input-field{
+
+  outline: none;
+  padding: 10px;
+  width: 300px;
+
+
+}
+.add-btn{
+  padding: 10px;
+margin-left: 10px;
+}
+.edit-btn{
+  padding:10px;
+}
+.deleteall{
+  padding: 10px;
+  position: absolute;
+  top: 70%;
+  left: 50%;
+}
